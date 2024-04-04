@@ -22,3 +22,8 @@ This Python script is designed to download RDF (Resource Description Framework) 
   - It attempts to download the RDF file corresponding to each URI using the requests.get method. </br>
   - If the download is successful (HTTP status code 200), it saves the content of the response to a file in the output folder. </br>
   - If the download fails or encounters an error, it prints an appropriate error message.
+
+# Example usage:
+uri_list_file = "C:/Users/userName/Documents/fetchUri/uri.txt"  # Path to your URI list file
+output_folder = "C:/Users/userName/Documents/fetchUri/rdf_batch"  # Output folder to save RDF files
+download_rdf_files(uri_list_file, output_folder)
