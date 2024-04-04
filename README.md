@@ -10,7 +10,7 @@ This Python script is designed to download RDF (Resource Description Framework) 
 3. **Run the Script**: Execute the script with the appropriate parameters, namely the path to the URI list file and the output folder path.
 
 # Script Explanation
-The script begins by importing necessary modules: os for file system operations and requests for making HTTP requests.
+The script begins by importing necessary modules: **`os`** for file system operations and **`requests`** for making HTTP requests.
 
 The download_rdf_files function is defined to handle the downloading of RDF files. It takes two parameters: uri_list_file (the path to the URI list file) and output_folder (the folder where RDF files will be saved).
 
