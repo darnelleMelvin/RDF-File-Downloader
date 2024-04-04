@@ -1,5 +1,5 @@
 # RDF-File-Downloader
-RDF File Downloader: A Python script for downloading RDF files from a list of URIs, automating the retrieval and storage of structured data from the web
+RDF File Downloader: A Python script for downloading RDF files from a list of URIs, automating the retrieval and storage of structured data from the web.
 This Python script is designed to download RDF (Resource Description Framework) files from a list of URIs (Uniform Resource Identifiers) specified in a text file. RDF is a standard model for data interchange on the web and is often used to represent metadata or structured data.
 
 ## Usage
