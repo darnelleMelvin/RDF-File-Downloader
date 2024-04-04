@@ -29,3 +29,6 @@ output_folder = "C:/Users/userName/Documents/fetchUri/rdf_batch"  # Output folde
 download_rdf_files(uri_list_file, output_folder) </br>
 
 Replace the **`uri_list_file`** and **`output_folder`** variables with the paths specific to your system and execute the script. The RDF files corresponding to the URIs listed in the URI list file will be downloaded to the specified output folder, with the appropriate file extension for the desired RDF serialization format. </br>
+
+## License
+Source code is made available under the [BSD 3-Clause License](https://opensource.org/license/bsd-3-clause). For questions, contact [Darnelle Melvin](https://github.com/darnelleMelvin). 
