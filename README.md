@@ -16,9 +16,9 @@ This Python script is designed to download RDF (Resource Description Framework) 
 
 - Within the function:
 
-  It first checks if the output folder exists. If not, it creates the folder. </br>
-  It reads the URI list file line by line and stores the URIs in a list. </br>
-  It iterates through each URI in the list, strips any leading or trailing whitespace, and constructs the filename for the downloaded RDF file based on the URI. </br>
-  It attempts to download the RDF file corresponding to each URI using the requests.get method. </br>
-  If the download is successful (HTTP status code 200), it saves the content of the response to a file in the output folder. </br>
-  If the download fails or encounters an error, it prints an appropriate error message.
+  - It first checks if the output folder exists. If not, it creates the folder. </br>
+  - It reads the URI list file line by line and stores the URIs in a list. </br>
+  - It iterates through each URI in the list, strips any leading or trailing whitespace, and constructs the filename for the downloaded RDF file based on the URI. </br>
+  - It attempts to download the RDF file corresponding to each URI using the requests.get method. </br>
+  - If the download is successful (HTTP status code 200), it saves the content of the response to a file in the output folder. </br>
+  - If the download fails or encounters an error, it prints an appropriate error message.
