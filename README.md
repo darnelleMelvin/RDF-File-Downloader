@@ -3,11 +3,11 @@ RDF File Downloader: A Python script for downloading RDF files from a list of UR
 This Python script is designed to download RDF (Resource Description Framework) files from a list of URIs (Uniform Resource Identifiers) specified in a text file. RDF is a standard model for data interchange on the web and is often used to represent metadata or structured data.
 
 # Usage
-URI List File: Create a text file containing a list of URIs, with each URI on a separate line. The script will read this file to determine which RDF files to download.
+1. **URI List File**: Create a text file containing a list of URIs, with each URI on a separate line. The script will read this file to determine which RDF files to download.
 
-Output Folder: Specify the folder where you want the downloaded RDF files to be saved. If the folder does not exist, the script will create it.
+2. **Output Folder**: Specify the folder where you want the downloaded RDF files to be saved. If the folder does not exist, the script will create it.
 
-Run the Script: Execute the script with the appropriate parameters, namely the path to the URI list file and the output folder path.
+3. **Run the Script**: Execute the script with the appropriate parameters, namely the path to the URI list file and the output folder path.
 
 # Script Explanation
 The script begins by importing necessary modules: os for file system operations and requests for making HTTP requests.
