@@ -12,18 +12,20 @@ This Python script is designed to download RDF (Resource Description Framework) 
 ## Script Explanation
 - The script begins by importing necessary modules: **`os`** for file system operations and **`requests`** for making HTTP requests.
 
-- The download_rdf_files function is defined to handle the downloading of RDF files. It takes two parameters: uri_list_file (the path to the URI list file) and output_folder (the folder where RDF files will be saved).
+- The **`download_rdf_files`** function is defined to handle the downloading of RDF files. It takes two parameters: **`uri_list_file`** (the path to the URI list file) and **`output_folder`** (the folder where RDF files will be saved).
 
 - Within the function:
 
   - It first checks if the output folder exists. If not, it creates the folder. </br>
   - It reads the URI list file line by line and stores the URIs in a list. </br>
   - It iterates through each URI in the list, strips any leading or trailing whitespace, and constructs the filename for the downloaded RDF file based on the URI. </br>
-  - It attempts to download the RDF file corresponding to each URI using the requests.get method. </br>
+  - It attempts to download the RDF file corresponding to each URI using the **`requests.get`** method. </br>
   - If the download is successful (HTTP status code 200), it saves the content of the response to a file in the output folder. </br>
   - If the download fails or encounters an error, it prints an appropriate error message.
 
 ## Example Usage:
 uri_list_file = "C:/Users/userName/Documents/fetchUri/uri.txt"  # Path to your URI list file </br>
 output_folder = "C:/Users/userName/Documents/fetchUri/rdf_batch"  # Output folder to save RDF files </br>
-download_rdf_files(uri_list_file, output_folder)
+download_rdf_files(uri_list_file, output_folder) </br>
+
+Replace the **`uri_list_file`** and **`output_folder`** variables with the paths specific to your system and execute the script. The RDF files corresponding to the URIs listed in the URI list file will be downloaded to the specified output folder, with the appropriate file extension for the desired RDF serialization format. </br>
