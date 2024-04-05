@@ -24,10 +24,11 @@ This Python script is designed to download RDF (Resource Description Framework) 
   - If the download fails or encounters an error, it prints an appropriate error message.
 
 ## Example Usage:
+~~~~
 **`uri_list_file`** = "C:/Users/userName/Documents/fetchUri/uri.txt"  # Path to your URI list file </br>
 **`output_folder`** = "C:/Users/userName/Documents/fetchUri/rdf_batch"  # Output folder to save RDF files </br>
 **`download_rdf_files(uri_list_file, output_folder)`** </br>
-
+~~~~
 Replace the **`uri_list_file`** and **`output_folder`** variables with the paths specific to your system and execute the script. The RDF files corresponding to the URIs listed in the URI list file will be downloaded to the specified output folder, with the appropriate file extension for the desired RDF serialization format. </br>
 
 ## License
