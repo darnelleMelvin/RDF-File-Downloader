@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr  4 15:51:12 2024
-
-@author: dmelvin
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Apr  2 15:14:20 2024
 
 @author: dmelvin
@@ -40,6 +33,6 @@ def download_rdf_files(uri_list_file, output_folder):
             print(f"Error downloading {uri}: {e}")
 
 # Example usage:
-uri_list_file = "C:/Users/dmelvin/Documents/fetchUri/uri_test.txt"  # Path to your URI list file
-output_folder = "C:/Users/dmelvin/Documents/fetchUri/rdf_batch"  # Output folder to save RDF files
+uri_list_file = "FILE_PATH_TO_INPUT.txt"  # Path to your URI list file
+output_folder = "FILE_PATH_TO_OUTPUT_FOLDER"  # Output folder to save RDF files
 download_rdf_files(uri_list_file, output_folder)
